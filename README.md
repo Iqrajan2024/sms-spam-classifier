@@ -13,7 +13,7 @@ This is a Streamlit web app that classifies SMS or email messages as **spam** or
 - Trained on a labelled SMS dataset
 
   ## Screenshot
-  ![App Screenshot](screenshot.png)
+  ![App Screenshot](Screenshot.png)
 
 ## Files
 - app.py: Streamlit web app
