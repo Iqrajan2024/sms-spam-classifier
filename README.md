@@ -12,6 +12,9 @@ This is a Streamlit web app that classifies SMS or email messages as **spam** or
 - Classification using **Multinomial Naive Bayes** with an accuracy of 97% and a precision score of 100%
 - Trained on a labelled SMS dataset
 
+  ## Screenshot
+  ![App Screenshot](screenshot.png)
+
 ## Files
 - app.py: Streamlit web app
 
