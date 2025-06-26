@@ -4,7 +4,6 @@ import string
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('corpus')
 
 try:
     sent_detector = nltk.tokenize.PunktSentenceTokenizer()
