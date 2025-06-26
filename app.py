@@ -2,6 +2,13 @@ import streamlit as st
 import pickle
 import string
 import nltk
+
+try:
+    sent_detector = nltk.tokenize.PunktSentenceTokenizer()
+except LookupError:
+    nltk.download('punkt')
+    st.rerun()
+
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
