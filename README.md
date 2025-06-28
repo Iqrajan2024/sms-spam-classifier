@@ -7,9 +7,9 @@ This is a Streamlit web app that classifies SMS or email messages as **spam** or
 ## Features
 - Clean and minimal web interface using **streamlit**
 - Text preprocessing with **NLTK**:
-   - Lowercasing, punctuation and special characters removal, stopwords filtering and stemming
-- TF-IDF vectorization
-- Classification using **Multinomial Naive Bayes** with an accuracy of 97% and a precision score of 100%
+   - Lowercasing, punctuation and special characters removal
+- Bag of Words vectorization using CountVectorizer
+- Classification using **Multinomial Naive Bayes** with an accuracy of 98% and a precision score of 95%
 - Trained on a labelled SMS dataset
 
   ## Screenshot
@@ -18,8 +18,9 @@ This is a Streamlit web app that classifies SMS or email messages as **spam** or
 ## Files
 - app.py: Streamlit web app
 
-- vectorizer.pkl: Pretrained TF-IDF vectorizer
+- vectorizer.pkl: Pretrained CountVector vectorizer
 
 - model.pkl: Trained classification model
 
 - requirements.txt: Python dependencies
+- sms-spam-classifier.ipynb: Jupyter notebook containing the model
